@@ -1,44 +1,44 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // // Variables
-    // let productos = [
-    //     {
-    //         id: 1,
-    //         nombre: "Repelente",
-    //         precio: 620,
-    //         imagen: "./images/cardrepelente.jpg",
-    //     },
-    //     {
-    //         id: 2,
-    //         nombre: "Suavizante",
-    //         precio: 300,
-    //         imagen: "./images/cardquerubin.jpg",
-    //     },
-    //     {
-    //         id: 3,
-    //         nombre: "Lavandina",
-    //         precio: 165,
-    //         imagen: "./images/cardayudin.jpg",
-    //     },
-    //     {
-    //         id: 4,
-    //         nombre: "Limpiador",
-    //         precio: 490,
-    //         imagen: "./images/cardlimpiador.jpg",
-    //     },
-    //     {
-    //         id: 5,
-    //         nombre: "Blem",
-    //         precio: 450,
-    //         imagen: "./images/cardlustra.jpg",
-    //     },
-    //     {
-    //         id: 6,
-    //         nombre: "Detergente",
-    //         precio: 140,
-    //         imagen: "./images/carddetergente.jpg",
-    //     },
-    //     ];
+// Variables
+    let productos = [
+    {
+            id: 1,
+            nombre: "Repelente",
+            precio: 620,
+            imagen: "./images/cardrepelente.jpg",
+        },
+        {
+            id: 2,
+            nombre: "Suavizante",
+            precio: 300,
+            imagen: "./images/cardquerubin.jpg",
+        },
+        {
+            id: 3,
+            nombre: "Lavandina",
+            precio: 165,
+            imagen: "./images/cardayudin.jpg",
+        },
+        {
+            id: 4,
+            nombre: "Limpiador",
+            precio: 490,
+            imagen: "./images/cardlimpiador.jpg",
+        },
+        {
+            id: 5,
+            nombre: "Blem",
+            precio: 450,
+            imagen: "./images/cardlustra.jpg",
+        },
+        {
+            id: 6,
+            nombre: "Detergente",
+            precio: 140,
+            imagen: "./images/carddetergente.jpg",
+        },
+        ];
 
     let carrito = [];
     const moneda = '$';
